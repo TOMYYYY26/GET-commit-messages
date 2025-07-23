@@ -4,7 +4,7 @@ from .log import logger
 
 class GitLabAPI:
     def __init__(self, api_root: str, token: str):
-        self.api_root = api_root.rstrip('/')  # e.g. "http://10.219.8.231/api/v4"
+        self.api_root = api_root.rstrip('/')  # e.g. "root/api/v4"
         self.headers = {
             'PRIVATE-TOKEN': token,
             'Content-Type': 'application/json'
