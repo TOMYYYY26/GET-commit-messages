@@ -1,0 +1,306 @@
+2025-07-17 09:27:23.511 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 09:28:02.315 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 10:11:30.192 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 10:18:02.521 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 10:25:54.627 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 10:29:22.650 | DEBUG    | __main__:<module>:11 - 调试信息
+2025-07-17 10:48:58.580 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:51:18.100 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:53:00.900 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:55:51.978 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:57:29.478 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:57:48.300 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:59:44.617 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 10:59:59.592 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:02:20.362 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:02:45.143 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:03:47.876 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:05:11.669 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:05:11.820 | ERROR    | utils.gitlab_api:get_project_id:27 - API请求失败: 403 Client Error: Forbidden for url: http://10.219.8.231/api/v4/projects?search=http%3A%2F%2F10.219.8.231%2Fuidp3690%2Fcodechat%2F&search_namespaces=True
+2025-07-17 11:11:05.092 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:11:05.202 | ERROR    | utils.gitlab_api:get_project_id:27 - API请求失败: 403 Client Error: Forbidden for url: http://10.219.8.231/api/v4/projects?search=http%3A%2F%2F10.219.8.231%2Fuidp3690%2Fcodechat%2F&search_namespaces=True
+2025-07-17 11:16:00.757 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:16:00.877 | ERROR    | utils.gitlab_api:get_project_id:27 - API请求失败: 403 Client Error: Forbidden for url: http://10.219.8.231/api/v4/projects?search=http%3A%2F%2F10.219.8.231%2Fuidp3690%2Fcodechat%2F&search_namespaces=True
+2025-07-17 11:24:08.029 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:24:08.512 | ERROR    | utils.gitlab_api:get_project_id:27 - API请求失败: Expecting value: line 1 column 1 (char 0)
+2025-07-17 11:29:04.548 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:29:59.512 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:32:14.519 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:33:56.896 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:35:33.645 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:40:41.703 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:45:58.369 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 11:45:58.488 | ERROR    | utils.gitlab_api:get_project_id:33 - GitLab API请求失败: 403 Client Error: Forbidden for url: http://10.219.8.231/api/v4/projects?search=uidp3690%2Fcodechat&search_namespaces=True
+2025-07-17 11:55:53.628 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:08:07.144 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:13:51.422 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:13:51.767 | DEBUG    | __main__:get_commits:67 - 请求GitLab API: http://10.219.8.231/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 13:13:51.918 | DEBUG    | __main__:get_commits:72 - 响应状态码: 200
+2025-07-17 13:13:51.918 | DEBUG    | __main__:get_commits:73 - 响应内容: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c84552407facf300fe4081ae0d70a5517018bd4.css" as="style" type="text/css">
+<link rel="preload" href="/assets/application-ba1723ee38768ca6dcce3e345b1f4cef7372520f2adbb0b5be32a0e6a2b6d5df.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-e4a0a599c798742d5817c43bbc1ddf774...
+2025-07-17 13:13:51.918 | ERROR    | __main__:get_commits:80 - GitLab API请求失败: Expecting value: line 1 column 1 (char 0)
+2025-07-17 13:34:25.312 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:34:25.792 | DEBUG    | __main__:get_commits:67 - 请求GitLab API: http://10.219.8.231/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 13:34:26.010 | DEBUG    | __main__:get_commits:72 - 响应状态码: 200
+2025-07-17 13:34:26.010 | DEBUG    | __main__:get_commits:73 - 响应内容: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c84552407facf300fe4081ae0d70a5517018bd4.css" as="style" type="text/css">
+<link rel="preload" href="/assets/application-ba1723ee38768ca6dcce3e345b1f4cef7372520f2adbb0b5be32a0e6a2b6d5df.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-e4a0a599c798742d5817c43bbc1ddf774...
+2025-07-17 13:34:26.010 | ERROR    | __main__:get_commits:80 - GitLab API请求失败: Expecting value: line 1 column 1 (char 0)
+2025-07-17 13:35:17.613 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:35:18.196 | ERROR    | __main__:get_commits:75 - API请求失败: 响应不是JSON: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c845524...
+2025-07-17 13:41:40.386 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:42:04.744 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:42:05.259 | ERROR    | __main__:get_commits:75 - API请求失败: 响应不是JSON: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c845524...
+2025-07-17 13:44:00.935 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:44:01.094 | ERROR    | utils.gitlab_api:get_project_id:33 - GitLab API请求失败: 404 Client Error: Not Found for url: http://10.219.8.231/api/v4/api/v4/projects?search=uidp3690%2Fcodechat&search_namespaces=True
+2025-07-17 13:44:31.705 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:44:32.137 | ERROR    | __main__:get_commits:75 - API请求失败: 响应不是JSON: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c845524...
+2025-07-17 13:45:01.744 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:45:01.916 | ERROR    | utils.gitlab_api:get_project_id:33 - GitLab API请求失败: 404 Client Error: Not Found for url: http://10.219.8.231/api/v4/api/v4/projects?search=uidp3690%2Fcodechat&search_namespaces=True
+2025-07-17 13:48:04.638 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:48:05.160 | ERROR    | __main__:get_commits:75 - API请求失败: 响应不是JSON: <!DOCTYPE html>
+<html class="devise-layout-html">
+<head>
+<meta charset="utf-8">
+<title>Sign in · GitLab</title>
+<link rel="preload" href="/assets/application_utilities-40332a5b8b231ef4aa3e61942c845524...
+2025-07-17 13:52:01.578 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:53:06.950 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:53:07.070 | ERROR    | utils.gitlab_api:get_project_id:33 - GitLab API请求失败: 404 Client Error: Not Found for url: http://10.219.8.231/api/v4/api/v4/projects?search=uidp3690%2Fcodechat&search_namespaces=True
+2025-07-17 13:58:59.924 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:59:24.741 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 13:59:24.742 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 13:59:24.743 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 13:59:24.743 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 13:59:24.743 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 13:59:24.985 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 13:59:24.985 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 13:59:25.001 | ERROR    | __main__:get_commits:82 - 获取提交失败: name 'quote' is not defined
+2025-07-17 14:03:45.514 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:03:45.515 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:03:45.516 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:03:45.516 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:03:45.516 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:03:45.894 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:03:45.894 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:03:45.894 | DEBUG    | __main__:get_commits:69 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:03:46.107 | DEBUG    | __main__:get_commits:73 - 响应状态码: 200
+2025-07-17 14:03:46.107 | DEBUG    | __main__:get_commits:74 - 响应头: {'Server': 'nginx', 'Date': 'Thu, 17 Jul 2025 06:04:47 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0BFRGN7KBXFDEB6A458JACQ', 'X-Runtime': '0.188566', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-17 14:09:59.686 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:09:59.686 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:09:59.686 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:09:59.686 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:09:59.686 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:10:00.251 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:10:00.251 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:10:00.251 | DEBUG    | __main__:get_commits:69 - 请求端点: <utils.gitlab_api.GitLabAPI object at 0x000001F4B8DE2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:10:00.267 | ERROR    | __main__:get_commits:82 - 获取提交失败: Invalid URL '<utils.gitlab_api.GitLabAPI object at 0x000001F4B8DE2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100': No scheme supplied. Perhaps you meant https://<utils.gitlab_api.GitLabAPI object at 0x000001F4B8DE2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100?
+2025-07-17 14:11:35.717 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:11:35.719 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:11:35.719 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:11:35.719 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:11:35.719 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:11:35.967 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:11:35.967 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:11:35.967 | DEBUG    | __main__:get_commits:69 - 请求端点: <utils.gitlab_api.GitLabAPI object at 0x00000212DFDA2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:11:35.967 | ERROR    | __main__:get_commits:82 - 获取提交失败: Invalid URL '<utils.gitlab_api.GitLabAPI object at 0x00000212DFDA2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100': No scheme supplied. Perhaps you meant https://<utils.gitlab_api.GitLabAPI object at 0x00000212DFDA2C30>/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100?
+2025-07-17 14:12:33.939 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:12:33.955 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:12:33.955 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:12:33.955 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:12:33.955 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:12:34.384 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:12:34.384 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:12:34.384 | DEBUG    | __main__:get_commits:69 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:12:34.693 | DEBUG    | __main__:get_commits:73 - 响应状态码: 200
+2025-07-17 14:12:34.693 | DEBUG    | __main__:get_commits:74 - 响应头: {'Server': 'nginx', 'Date': 'Thu, 17 Jul 2025 06:13:36 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0BG8MRSMK78VFF9JR9Z32ZJ', 'X-Runtime': '0.160965', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-17 14:13:14.178 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:13:14.179 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:13:14.179 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:13:14.179 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:13:14.180 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:13:14.503 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:13:14.503 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:13:14.503 | DEBUG    | __main__:get_commits:69 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:13:14.742 | DEBUG    | __main__:get_commits:73 - 响应状态码: 200
+2025-07-17 14:13:14.742 | DEBUG    | __main__:get_commits:74 - 响应头: {'Server': 'nginx', 'Date': 'Thu, 17 Jul 2025 06:14:16 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0BG9VY3V1350X6XAXWCPB74', 'X-Runtime': '0.170136', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-17 14:17:04.216 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-17 14:17:04.218 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:17:04.218 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:17:04.218 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:17:04.218 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:17:04.567 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:17:04.568 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:17:04.569 | DEBUG    | __main__:get_commits:69 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-17 14:17:04.773 | DEBUG    | __main__:get_commits:73 - 响应状态码: 200
+2025-07-17 14:17:04.773 | DEBUG    | __main__:get_commits:74 - 响应头: {'Server': 'nginx', 'Date': 'Thu, 17 Jul 2025 06:18:06 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0BGGWKXPR4B6BWG74W0668S', 'X-Runtime': '0.178574', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-17 14:41:11.675 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 14:41:11.675 | DEBUG    | __main__:__init__:30 - API根路径: http://10.219.8.231/api/v4
+2025-07-17 14:41:11.675 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-17 14:41:11.675 | DEBUG    | __main__:get_project_id:52 - 提取的项目路径: uidp3690/codechat
+2025-07-17 14:41:11.675 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-17 14:41:11.976 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-17 14:41:11.976 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-17 14:41:11.976 | DEBUG    | __main__:get_commits:71 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=500
+2025-07-17 14:41:12.358 | DEBUG    | __main__:get_commits:75 - 响应状态码: 200
+2025-07-17 14:41:12.358 | DEBUG    | __main__:get_commits:76 - 响应头: {'Server': 'nginx', 'Date': 'Thu, 17 Jul 2025 06:42:13 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0BHX24B82SXCDC1WNESZ573', 'X-Runtime': '0.166364', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-17 17:10:55.294 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 17:10:55.294 | DEBUG    | __main__:__init__:45 - Gerrit API根路径: http://10.219.66.213:8080/a
+2025-07-17 17:10:55.294 | DEBUG    | utils.gerrit_api:__init__:9 - GerritAPI初始化，根路径: http://10.219.66.213:8080/a
+2025-07-17 17:10:55.294 | DEBUG    | __main__:get_project_id:68 - 提取的项目路径: your-project-name
+2025-07-17 17:18:13.502 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 17:18:13.504 | DEBUG    | __main__:__init__:45 - Gerrit API根路径: http://10.219.66.213:8080/a
+2025-07-17 17:18:13.504 | DEBUG    | utils.gerrit_api:__init__:9 - GerritAPI初始化，根路径: http://10.219.66.213:8080/a
+2025-07-17 17:18:13.504 | DEBUG    | __main__:get_project_id:68 - 提取的项目路径: your-project-name
+2025-07-17 17:21:34.284 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 17:21:34.285 | DEBUG    | __main__:__init__:45 - Gerrit API根路径: http://10.219.66.213:8080/a
+2025-07-17 17:21:34.286 | DEBUG    | utils.gerrit_api:__init__:11 - GerritAPI初始化，根路径: http://10.219.66.213:8080/a
+2025-07-17 17:21:34.286 | DEBUG    | __main__:get_project_id:68 - 提取的项目路径: your-project-name
+2025-07-17 17:21:34.286 | DEBUG    | utils.gerrit_api:get_project_id:69 - 获取项目ID: http://10.219.66.213:8080/a/projects/your-project-name
+2025-07-17 17:55:38.862 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 17:55:38.863 | DEBUG    | __main__:<module>:79 - 配置文件加载成功
+2025-07-17 17:55:38.863 | DEBUG    | utils.gerrit_api:__init__:11 - GerritAPI初始化，根路径: http://10.219.66.213:8080/a
+2025-07-17 17:55:38.864 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: your-project-name
+2025-07-17 17:55:38.864 | DEBUG    | utils.gerrit_api:get_project_id:69 - 获取项目ID: http://10.219.66.213:8080/a/projects/your-project-name
+2025-07-17 17:55:38.891 | ERROR    | __main__:getObject:68 - 获取项目信息失败: API请求失败: HTTP 401
+2025-07-17 17:59:17.224 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 17:59:17.226 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 17:59:17.226 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: desay/app/chery/g9sh
+2025-07-17 17:59:17.226 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/desay%2Fapp%2Fchery%2Fg9sh
+2025-07-17 17:59:17.271 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:00:17.349 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:00:17.349 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:00:17.349 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: desay/app/chery/g9sh
+2025-07-17 18:00:17.349 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/desay%2Fapp%2Fchery%2Fg9sh
+2025-07-17 18:00:17.391 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:12:55.154 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:12:55.156 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:12:55.156 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: desay/app/chery/g9sh
+2025-07-17 18:12:55.156 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/desay%2Fapp%2Fchery%2Fg9sh
+2025-07-17 18:12:55.175 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:19:06.299 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:19:06.301 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:19:06.301 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:19:06.301 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:19:06.333 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:21:26.430 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:21:26.432 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://http://10.219.66.213:8080/a
+2025-07-17 18:21:26.433 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:21:26.433 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://http://10.219.66.213:8080/a/projects/
+2025-07-17 18:21:33.403 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 网络请求异常: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: /10.219.66.213:8080/a/projects/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000029F55D4F860>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)"))
+2025-07-17 18:25:08.036 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:25:08.036 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://http://10.219.66.213:8080/a
+2025-07-17 18:25:08.036 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: a
+2025-07-17 18:25:08.036 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://http://10.219.66.213:8080/a/projects/a
+2025-07-17 18:25:14.995 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 网络请求异常: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: /10.219.66.213:8080/a/projects/a (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x000002809316F860>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)"))
+2025-07-17 18:25:44.220 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:25:44.220 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://http://10.219.66.213:8080/a
+2025-07-17 18:25:44.220 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:25:44.220 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://http://10.219.66.213:8080/a/projects/
+2025-07-17 18:25:51.173 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 网络请求异常: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: /10.219.66.213:8080/a/projects/ (Caused by NameResolutionError("<urllib3.connection.HTTPConnection object at 0x0000026DAEE0F860>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)"))
+2025-07-17 18:26:26.933 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:26:26.933 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:26:26.933 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:26:26.933 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:26:26.955 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:32:41.776 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:32:41.790 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:32:41.791 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:32:41.791 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:32:41.850 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:36:52.983 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:36:52.983 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:36:52.993 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:36:52.993 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:37:03.005 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 网络请求异常: HTTPConnectionPool(host='10.219.66.213', port=8080): Read timed out. (read timeout=10)
+2025-07-17 18:37:34.538 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:37:34.546 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:37:34.546 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:37:34.547 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:37:34.568 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-17 18:38:34.998 | DEBUG    | __main__:<module>:14 - 调试信息
+2025-07-17 18:38:34.998 | DEBUG    | utils.gerrit_api:__init__:18 - GerritAPI 初始化完成，根路径: http://10.219.66.213:8080/a
+2025-07-17 18:38:34.998 | DEBUG    | __main__:get_project_id:56 - 提取的项目路径: 
+2025-07-17 18:38:34.998 | DEBUG    | utils.gerrit_api:_make_request:22 - 请求 URL: http://10.219.66.213:8080/a/projects/
+2025-07-17 18:38:35.032 | ERROR    | __main__:getObject:68 - 获取项目信息失败: 认证失败：用户名或密码错误
+2025-07-23 09:40:28.464 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-23 09:40:28.464 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 09:40:28.464 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 09:40:28.464 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-23 09:40:28.464 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 09:40:28.548 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 401
+2025-07-23 09:44:57.383 | DEBUG    | __main__:<module>:12 - 调试信息
+2025-07-23 09:44:57.383 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 09:44:57.383 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 09:44:57.383 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-23 09:44:57.383 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 09:44:57.582 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 09:44:57.584 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 09:44:57.585 | DEBUG    | __main__:get_commits:69 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=100
+2025-07-23 09:44:57.762 | DEBUG    | __main__:get_commits:73 - 响应状态码: 200
+2025-07-23 09:44:57.762 | DEBUG    | __main__:get_commits:74 - 响应头: {'Server': 'nginx', 'Date': 'Wed, 23 Jul 2025 01:46:04 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding, Origin', 'Cache-Control': 'max-age=0, private, must-revalidate', 'Etag': 'W/"964523a97fa8bbc563e5bbddcae6778d"', 'Link': '<http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="next", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=1&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="first", <http://10.219.8.231/api/v4/projects/3712/repository/commits?id=3712&order=default&page=2&per_page=100&ref_name=code2dd-v2&trailers=false>; rel="last"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-Next-Page': '2', 'X-Page': '1', 'X-Per-Page': '100', 'X-Prev-Page': '', 'X-Request-Id': '01K0TFB2STWQEG9PDDZ4XY6RSR', 'X-Runtime': '0.151037', 'Strict-Transport-Security': 'max-age=63072000', 'Referrer-Policy': 'strict-origin-when-cross-origin', 'Content-Encoding': 'gzip'}
+2025-07-23 10:14:06.991 | DEBUG    | __main__:__init__:27 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 10:14:06.991 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 10:14:06.991 | DEBUG    | __main__:get_project_id:49 - 提取的项目路径: uidp3690/codechat
+2025-07-23 10:14:06.991 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 10:14:07.255 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 10:14:07.255 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 10:14:07.255 | DEBUG    | __main__:get_commits:67 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=5
+2025-07-23 10:14:07.741 | ERROR    | __main__:generate_diff_report:143 - 生成差异报告失败: name 'datetime' is not defined
+2025-07-23 10:14:07.741 | ERROR    | __main__:main:247 - 程序运行失败: 生成报告失败: name 'datetime' is not defined
+2025-07-23 10:19:19.692 | DEBUG    | __main__:__init__:27 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 10:19:19.692 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 10:19:19.692 | DEBUG    | __main__:get_project_id:49 - 提取的项目路径: uidp3690/codechat
+2025-07-23 10:19:19.692 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 10:19:19.995 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 10:19:19.995 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 10:19:19.995 | DEBUG    | __main__:get_commits:67 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=5
+2025-07-23 10:19:20.450 | ERROR    | __main__:generate_diff_report:143 - 生成差异报告失败: name 'datetime' is not defined
+2025-07-23 10:19:20.450 | ERROR    | __main__:main:247 - 程序运行失败: 生成报告失败: name 'datetime' is not defined
+2025-07-23 10:29:57.742 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 10:29:57.742 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 10:29:57.742 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-23 10:29:57.742 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 10:29:58.053 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 10:29:58.053 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 10:29:58.053 | DEBUG    | __main__:get_commits:68 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=5
+2025-07-23 10:32:33.358 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 10:32:33.358 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 10:32:33.359 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-23 10:32:33.360 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 10:32:33.655 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 10:32:33.655 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 10:32:33.655 | DEBUG    | __main__:get_commits:68 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=5
+2025-07-23 10:47:56.288 | DEBUG    | __main__:__init__:28 - API根路径: http://10.219.8.231/api/v4
+2025-07-23 10:47:56.288 | DEBUG    | utils.gitlab_api:__init__:12 - GitLabAPI初始化，根路径: http://10.219.8.231/api/v4
+2025-07-23 10:47:56.288 | DEBUG    | __main__:get_project_id:50 - 提取的项目路径: uidp3690/codechat
+2025-07-23 10:47:56.288 | DEBUG    | utils.gitlab_api:get_project_id:19 - 查询项目URL: http://10.219.8.231/api/v4/projects, 参数: {'search': 'uidp3690/codechat', 'search_namespaces': True}
+2025-07-23 10:47:56.616 | DEBUG    | utils.gitlab_api:get_project_id:22 - 响应状态码: 200
+2025-07-23 10:47:56.616 | DEBUG    | utils.gitlab_api:get_project_id:28 - 找到项目: ID=3712
+2025-07-23 10:47:56.631 | DEBUG    | __main__:get_commits:68 - 请求端点: http://10.219.8.231/api/v4/projects/3712/repository/commits?ref_name=code2dd-v2&per_page=10

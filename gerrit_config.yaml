@@ -1,0 +1,32 @@
+# Gerrit服务器配置
+
+gerrit_url: "http://10.219.66.213:8080"
+username: "hzh1_iov_tools"
+http_password: "2BgxJ3IKFVDPS6L5F+no0Wus3bvdh4ZvveXrIBb0lg"
+
+# 查询配置
+query:
+  default: "status:open limit:200"
+  limit: 200  # 默认返回结果数量
+  projects:
+    - name: "chery-8155-media-app"
+      branch: "	chery_t13j_int_cs_sop3"
+      queries:
+        - "status:open"
+        - "status:merged"
+    - name: "another_project"
+      branch: "main"
+
+# 报告配置
+report:
+  output_dir: "gerrit_reports"  # 默认报告输出目录
+  file_format: "markdown"      # 可选: markdown/html/text
+  include_diff: true           # 是否包含代码差异
+  max_diff_size: 2000          # 最大diff显示行数
+
+# 自动化任务配置
+automation:
+  request_delay: 1.0
+  watch_changes: true          # 是否监控新变更
+  check_interval: 3600         # 检查间隔(秒)
+  notify_email: "yrrrr1226@qq.com" # 通知邮箱
