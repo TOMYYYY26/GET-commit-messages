@@ -9,7 +9,7 @@ class GerritAPI:
         """
         初始化Gerrit REST API客户端
         
-        :param api_root: Gerrit API根地址 (e.g. "http://10.219.66.213:8080/a")
+        :param api_root: Gerrit API根地址 (e.g. "http://xx.xxx.xx.xxx:8080/a")
         :param username: Gerrit用户名
         :param password: HTTP密码 (从Settings->HTTP Password生成)
         """
@@ -46,7 +46,7 @@ class GerritAPI:
         """
         获取特定项目信息
         
-        :param project_name: 项目名称 (e.g. "desay/app/chery/g9sh/SVLauncherApp")
+        :param project_name: 项目名称 
         """
         encoded_name = quote(project_name, safe='')
         return self._make_request(f"/projects/{encoded_name}")
@@ -68,7 +68,7 @@ class GerritAPI:
         """
         获取变更详情
         
-        :param change_id: 变更ID (e.g. "I8473b95934b5732ac55d26311a706c9c2bde9940")
+        :param change_id: 变更ID 
         """
         return self._make_request(f"/changes/{change_id}/detail")
 
