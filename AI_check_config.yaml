@@ -1,0 +1,4 @@
+api_key: "*********"
+base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+model_name_1: "deepseek-v3"
+model_name_2: "qwen3-coder-plus"

@@ -1,0 +1,12 @@
+# Gerrit 服务器配置
+host: "10.219.63.85:8080"
+username: "hzh1_iov_tools"
+password: "niSbTNs11JkZbVuLZUhJppVLkoZL5cGQ+RnieKZ2FA"
+
+# AI API 配置
+api_key: "**********"  # 请替换为实际的API密钥
+base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+model_name: "qwen-plus"
+
+# 项目名称
+project_name: "Toyota_BEV_STEP3_CDC_MCU"
